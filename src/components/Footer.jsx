@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="relative px-6 py-10 border-t border-white/5">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <p className="text-ink-muted text-sm font-body">
-          © {new Date().getFullYear()} {personalInfo.name}. Built with React & GSAP.
+          © {new Date().getFullYear()} {personalInfo.name}. All rights reserved.
         </p>
 
         <div className="flex items-center gap-5 text-ink-muted">

@@ -34,7 +34,7 @@ export default function Skills() {
     <section id="skills" ref={sectionRef} className="relative py-32 px-6 bg-bg-soft">
       <div className="max-w-6xl mx-auto">
         <span className="text-sm text-cyan font-body tracking-[0.3em] uppercase">
-          02 — Skills
+          02 - Skills
         </span>
         <h2 className="font-display text-4xl md:text-5xl font-semibold mt-4 mb-16">
           Tools I reach for

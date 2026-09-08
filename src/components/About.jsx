@@ -5,7 +5,7 @@ import { personalInfo } from "../data/portfolioData";
 
 const highlights = [
   { label: "Academic foundation", value: "HND, Pearson UK" },
-  { label: "Currently pursuing", value: "BEng (Hons) Top-up" },
+  { label: "Currently pursuing", value: "BEng (Hons) in Software Engineering" },
   { label: "Project experience", value: "Academic + Enterprise-level" },
   { label: "Core strength", value: "Full-stack development" },
 ];
@@ -41,7 +41,7 @@ export default function About() {
       <div className="max-w-6xl mx-auto grid md:grid-cols-[0.4fr_0.6fr] gap-16">
         <div>
           <span className="about-reveal text-sm text-cyan font-body tracking-[0.3em] uppercase">
-            01 — About
+            01 - About
           </span>
           <h2 className="about-reveal font-display text-4xl md:text-5xl font-semibold mt-4 leading-tight">
             The person <br /> behind the code

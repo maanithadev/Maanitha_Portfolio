@@ -1,23 +1,24 @@
 export const personalInfo = {
-  name: "Your Name",
-  initials: "YN",
+  name: "Maanitha Perera",
+  initials: "MP",
+  imagePath: "1777633881332.jpg",
   role: "Software Engineering Undergraduate",
   tagline:
-    "I build clean, reliable software across the stack — from database design to deployment.",
+    "I build clean, reliable software across the stack - from database design to deployment.",
   status: "Open to entry-level developer roles & internships",
-  bio: "Passionate and committed Software Engineering undergraduate with hands-on experience across the full stack — from front-end frameworks to backend services, databases, and DevOps. Currently pursuing a BEng (Hons) top-up degree while contributing to real-world projects.",
+  bio: "Passionate and committed Software Engineering undergraduate with hands-on experience across the full stack - from front-end frameworks to backend services, databases, and DevOps. Currently pursuing a BEng (Hons) top-up degree while contributing to real-world projects.",
   resumeUrl: "/resume.pdf",
   socials: {
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourusername",
-    email: "mailto:you@email.com",
+    github: "https://github.com/maanithadev",
+    linkedin: "https://www.linkedin.com/in/maanitha-perera/",
+    email: "mailto:maanithabimandith@gmail.com",
   },
 };
 
 export const education = [
   {
     id: "beng",
-    degree: "BEng (Hons) Software Engineering — Top-up Degree",
+    degree: "BEng (Hons) Software Engineering - Top-up Degree",
     institution: "Saegis Campus",
     period: "In Progress",
     description:
@@ -34,18 +35,13 @@ export const education = [
 ];
 
 export const skillGroups = [
-  {
-    id: "frontend",
-    label: "Frontend",
-    skills: ["React JS", "Tailwind CSS", "Bootstrap", "JavaScript (ES6+)", "HTML5 & CSS3"],
-  },
+  { id: "programming languages", label: "Programming Languages", skills: ["JavaScript", "C#"], },
+  { id: "frontend", label: "Frontend", skills: ["React JS", "Tailwind CSS", "Bootstrap"], },
   { id: "backend", label: "Backend", skills: ["Node.js", "Express.js", "REST APIs"] },
   { id: "database", label: "Databases", skills: ["MySQL", "MongoDB"] },
   { id: "baas", label: "Backend-as-a-Service", skills: ["Supabase"] },
   {
-    id: "devops",
-    label: "DevOps & Deployment",
-    skills: ["Git", "GitHub", "Vercel", "Render"],
+    id: "devops", label: "DevOps & Deployment", skills: ["Git", "GitHub", "Netlify", "Vercel"],
   },
 ];
 
@@ -76,7 +72,7 @@ export const certificates = [
 export const projects = [
   {
     id: "01",
-    title: "Project One",
+    title: "WasteXchange - Intelligent Waste Classification and Recommendation System for Industrial Waste Exchange",
     description: "Replace with a real enterprise-level or academic project you've shipped.",
     longDescription:
       "A longer walkthrough of what the project does, the problem it solves, and your specific contribution to it.",
@@ -89,7 +85,7 @@ export const projects = [
   },
   {
     id: "02",
-    title: "Project Two",
+    title: "Matrix Ai Academy",
     description: "Replace with a real enterprise-level or academic project you've shipped.",
     longDescription:
       "A longer walkthrough of what the project does, the problem it solves, and your specific contribution to it.",
@@ -102,7 +98,46 @@ export const projects = [
   },
   {
     id: "03",
-    title: "Project Three",
+    title: "Adcore Creative",
+    description: "Replace with a real enterprise-level or academic project you've shipped.",
+    longDescription:
+      "A longer walkthrough of what the project does, the problem it solves, and your specific contribution to it.",
+    year: "2025",
+    role: "Full-stack Developer",
+    features: ["User authentication", "Real-time data sync", "Responsive dashboard"],
+    stack: ["React", "Node.js", "MongoDB"],
+    live: "#",
+    github: "#",
+  },
+  {
+    id: "04",
+    title: "HelaNova Solutions",
+    description: "Replace with a real enterprise-level or academic project you've shipped.",
+    longDescription:
+      "A longer walkthrough of what the project does, the problem it solves, and your specific contribution to it.",
+    year: "2025",
+    role: "Full-stack Developer",
+    features: ["User authentication", "Real-time data sync", "Responsive dashboard"],
+    stack: ["React", "Node.js", "MongoDB"],
+    live: "#",
+    github: "#",
+  },
+  {
+    id: "05",
+    title: "HND Web Assignment Ecommerce",
+    description: "Replace with a real enterprise-level or academic project you've shipped.",
+    longDescription:
+      "A longer walkthrough of what the project does, the problem it solves, and your specific contribution to it.",
+    year: "2025",
+    role: "Full-stack Developer",
+    features: ["User authentication", "Real-time data sync", "Responsive dashboard"],
+    stack: ["React", "Node.js", "MongoDB"],
+    live: "#",
+    github: "#",
+  },
+  {
+    id: "06",
+    title: "Maanitha Portfolio",
     description: "Replace with a real enterprise-level or academic project you've shipped.",
     longDescription:
       "A longer walkthrough of what the project does, the problem it solves, and your specific contribution to it.",

@@ -40,7 +40,7 @@ export default function CTA() {
 
       <div className="relative z-10 max-w-2xl mx-auto">
         <span className="cta-reveal text-sm text-cyan font-body tracking-[0.3em] uppercase">
-          06 — Contact
+          06 - Contact
         </span>
         <h2 className="cta-reveal font-display text-4xl md:text-6xl font-semibold mt-6 leading-tight">
           Let's build something worth shipping.

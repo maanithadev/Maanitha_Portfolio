@@ -35,7 +35,7 @@ export default function Timeline() {
     <section id="experience" ref={sectionRef} className="relative py-32 px-6 bg-bg-soft">
       <div className="max-w-4xl mx-auto">
         <span className="text-sm text-cyan font-body tracking-[0.3em] uppercase">
-          05 — Journey
+          05 - Journey
         </span>
         <h2 className="font-display text-4xl md:text-5xl font-semibold mt-4 mb-20">
           Education & growth

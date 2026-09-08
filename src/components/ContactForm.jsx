@@ -92,7 +92,7 @@ export default function ContactForm() {
       >
         {status === "loading" && "Sending..."}
         {status === "success" && (<><FiCheck /> Message sent</>)}
-        {status === "error" && (<><FiAlertCircle /> Something went wrong — try again</>)}
+        {status === "error" && (<><FiAlertCircle /> Something went wrong - try again</>)}
         {status === "idle" && (<><FiSend /> Send message</>)}
       </button>
     </form>

@@ -25,7 +25,7 @@ export default function Certificates() {
     <section id="certificates" ref={sectionRef} className="relative py-32 px-6 bg-bg-soft">
       <div className="max-w-6xl mx-auto">
         <span className="text-sm text-cyan font-body tracking-[0.3em] uppercase">
-          04 — Credentials
+          04 - Credentials
         </span>
         <h2 className="font-display text-4xl md:text-5xl font-semibold mt-4 mb-16">
           Certificates

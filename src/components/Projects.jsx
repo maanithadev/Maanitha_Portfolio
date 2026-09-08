@@ -45,7 +45,7 @@ export default function Projects() {
   return (
     <section id="projects" ref={sectionRef} className="relative py-32 px-6">
       <div className="max-w-6xl mx-auto">
-        <span className="text-sm text-cyan font-body tracking-[0.3em] uppercase">03 — Work</span>
+        <span className="text-sm text-cyan font-body tracking-[0.3em] uppercase">03 - Work</span>
         <h2 className="font-display text-4xl md:text-5xl font-semibold mt-4 mb-16">
           Selected projects
         </h2>
