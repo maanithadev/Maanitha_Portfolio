@@ -27,12 +27,12 @@ export default function ProjectDetails({ project }) {
       </div>
 
       <div className="flex gap-4 mt-8">
-        <a href={project.live} target="_blank" rel="noreferrer" className="px-6 py-3 rounded-full bg-gradient-to-r from-violet to-cyan text-bg text-sm font-medium">
+        {project.live !== "" && <a href={project.live} target="_blank" rel="noreferrer" className="px-6 py-3 rounded-full bg-gradient-to-r from-violet to-cyan text-bg text-sm font-medium">
           Live demo
-        </a>
-        <a href={project.github} target="_blank" rel="noreferrer" className="px-6 py-3 rounded-full border border-white/15 text-sm">
+        </a>}
+        {project.github !== "" && <a href={project.github} target="_blank" rel="noreferrer" className="px-6 py-3 rounded-full border border-white/15 text-sm">
           Source code
-        </a>
+        </a>}
       </div>
     </div>
   );
