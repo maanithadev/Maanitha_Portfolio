@@ -12,28 +12,15 @@
   --font-body: "Inter", sans-serif;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 body {
   background: var(--color-bg);
   color: var(--color-ink);
   font-family: var(--font-body);
   overflow-x: hidden;
-  cursor: none;
-}
-
-@media (max-width: 768px) {
-  body { cursor: auto; }
-  .custom-cursor { display: none; }
-}
-
-::selection { background: var(--color-violet); color: white; }
-
-::-webkit-scrollbar { width: 8px; }
-::-webkit-scrollbar-track { background: var(--color-bg); }
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(var(--color-violet), var(--color-cyan));
-  border-radius: 999px;
 }
 
 .noise-layer {
@@ -63,4 +50,10 @@ body {
   background:
     radial-gradient(circle at 30% 20%, rgba(139, 92, 246, 0.25), transparent 60%),
     radial-gradient(circle at 80% 60%, rgba(34, 211, 238, 0.2), transparent 55%);
+}
+
+@media (max-width:332px) {
+  .scrollHover {
+    display: none;
+  }
 }

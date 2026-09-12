@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import SmoothScroll from "./components/SmoothScroll";
-import CustomCursor from "./components/CustomCursor";
 import Preloader from "./components/Preloader";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -20,8 +18,7 @@ export default function App() {
   }, [loading]);
 
   return (
-    <SmoothScroll>
-      <CustomCursor />
+    <>
       <div className="noise-layer" />
       {loading && <Preloader onComplete={() => setLoading(false)} />}
 
@@ -36,6 +33,6 @@ export default function App() {
         <CTA />
       </main>
       <Footer />
-    </SmoothScroll>
+    </>
   );
 }

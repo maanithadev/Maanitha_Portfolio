@@ -1,28 +1,24 @@
 import { useEffect, useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "../lib/gsapConfig";
-import { useLenis } from "../lib/LenisContext";
 import { FiX } from "react-icons/fi";
 
 export default function Modal({ isOpen, onClose, children }) {
   const overlayRef = useRef(null);
   const panelRef = useRef(null);
-  const lenis = useLenis();
 
   useEffect(() => {
     if (!isOpen) return;
-    lenis?.stop();
     document.body.style.overflow = "hidden";
 
     const onKey = (e) => e.key === "Escape" && onClose();
     window.addEventListener("keydown", onKey);
 
     return () => {
-      lenis?.start();
       document.body.style.overflow = "";
       window.removeEventListener("keydown", onKey);
     };
-  }, [isOpen, lenis, onClose]);
+  }, [isOpen, onClose]);
 
   useGSAP(() => {
     if (!isOpen) return;

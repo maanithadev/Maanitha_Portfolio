@@ -36,7 +36,7 @@ export default function Hero({ ready }) {
     <section
       id="home"
       ref={containerRef}
-      className="relative min-h-screen flex flex-col justify-center overflow-hidden px-6"
+      className="relative min-h-screen md:min-h-screen flex flex-col justify-center overflow-hidden px-6"
     >
       <div className="blob-1 absolute w-[28rem] h-[28rem] bg-violet/30 rounded-full blur-[120px] -top-20 -left-20" />
       <div className="blob-2 absolute w-[24rem] h-[24rem] bg-cyan/20 rounded-full blur-[120px] bottom-0 right-0" />
@@ -89,13 +89,13 @@ export default function Hero({ ready }) {
           </div>
         </div>
 
-        <div className="hidden lg:block w-4/10 bg-green-500 mx-auto relative z-10 rounded-full overflow-hidden">
+        <div className="hidden lg:block w-4/10 mx-auto relative z-10 rounded-full overflow-hidden">
           <img src={personalInfo.imagePath} alt="" className="w-full" />
         </div>
       </div>
 
       <a href="#about"
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-ink-muted text-xs"
+        className="scrollHover absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-ink-muted text-xs"
       >
         Scroll
         < FiArrowDown className="animate-bounce" />
