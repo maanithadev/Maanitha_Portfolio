@@ -1,13 +1,15 @@
+import profilePic from "../assets/1777633881332.jpg"
+
 export const personalInfo = {
   name: "Maanitha Perera",
   initials: "MP",
-  imagePath: "1777633881332.jpg",
+  imagePath: profilePic,
   role: "Software Engineering Undergraduate",
   tagline:
     "I build clean, reliable software across the stack - from database design to deployment.",
   status: "Open to entry-level developer roles & internships",
   bio: "Passionate and committed Software Engineering undergraduate with hands-on experience across the full stack - from front-end frameworks to backend services, databases, and DevOps. Currently pursuing a BEng (Hons) top-up degree while contributing to real-world projects.",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "Maanitha Perera.pdf",
   socials: {
     github: "https://github.com/maanithadev",
     linkedin: "https://www.linkedin.com/in/maanitha-perera/",
