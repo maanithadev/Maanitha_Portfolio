@@ -5,7 +5,7 @@ import { personalInfo } from "../data/portfolioData";
 
 const highlights = [
   { label: "Academic foundation", value: "HND, Pearson UK" },
-  { label: "Currently pursuing", value: "BEng (Hons) in Software Engineering" },
+  { label: "Currently pursuing", value: "BEng(Hons) in Software Engineering" },
   { label: "Project experience", value: "Academic + Enterprise-level" },
   { label: "Core strength", value: "Full-stack development" },
 ];
@@ -55,7 +55,7 @@ export default function About() {
           <p className="about-reveal text-ink-muted text-lg leading-relaxed font-body mt-6">
             I thrive in team-based environments, care about the details others skip, and I'm
             always looking for the next technology worth learning. Right now, that means
-            balancing my top-up degree with real, shippable work.
+            balancing my degree with real, shippable work.
           </p>
 
           <div className="about-stats grid grid-cols-2 gap-6 mt-12">

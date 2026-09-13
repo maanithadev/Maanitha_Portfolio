@@ -7,8 +7,8 @@ export const personalInfo = {
   role: "Software Engineering Undergraduate",
   tagline:
     "I build clean, reliable software across the stack - from database design to deployment.",
-  status: "Open to entry-level developer roles & internships",
-  bio: "Passionate and committed Software Engineering undergraduate with hands-on experience across the full stack - from front-end frameworks to backend services, databases, and DevOps. Currently pursuing a BEng (Hons) top-up degree while contributing to real-world projects.",
+  status: "Open to developer roles & internships",
+  bio: "Passionate and committed Software Engineering undergraduate with hands-on experience across the full stack - from front-end frameworks to backend services and databases. Currently pursuing a BEng(Hons) in Software Engineering degree while contributing to real-world projects.",
   resumeUrl: "Maanitha Perera.pdf",
   socials: {
     github: "https://github.com/maanithadev",
@@ -20,15 +20,15 @@ export const personalInfo = {
 export const education = [
   {
     id: "beng",
-    degree: "BEng (Hons) Software Engineering - Top-up Degree",
-    institution: "Saegis Campus",
+    degree: "BEng(Hons) in Software Engineering",
+    institution: "Saegis Campus (Canterbury Christ Church University)",
     period: "In Progress",
     description:
       "Advancing technical and professional expertise in modern software engineering practices.",
   },
   {
     id: "hnd",
-    degree: "Higher National Diploma (HND) in Software Engineering",
+    degree: "Higher National Diploma(HND) in Software Engineering",
     institution: "Saegis Campus (Pearson UK)",
     period: "Completed",
     description:
