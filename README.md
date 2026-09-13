@@ -1,16 +1,51 @@
-# React + Vite
+# Maanitha's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, highly interactive, and responsive personal portfolio built with React 19, Vite, and Tailwind CSS. The project focuses on providing a premium user experience with custom animations powered by GSAP.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Modern Tech Stack**: Built with React 19 and Vite for blazing fast development and optimized production builds.
+- **Sleek Styling**: Utilizes the newly released Tailwind CSS v4 for utility-first responsive styling and custom aesthetics.
+- **Advanced Animations**: Features complex scroll-triggered animations and timeline sequences using GSAP.
+- **Interactive UI Components**: Includes a custom Preloader, dynamic Hero section, interactive Projects showcase (with details modal), Timeline, and a Skills section.
+- **Serverless Contact Form**: Fully functional contact form with backend handling via Supabase for secure message delivery.
+- **Premium Aesthetics**: Features a custom noise texture overlay, smooth transitions, and a curated dark/modern theme.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Core**: React 19, Vite
+- **Styling**: Tailwind CSS v4
+- **Animations**: GSAP
+- **Icons**: React Icons
+- **Backend / Database**: Supabase
 
-## Expanding the ESLint configuration
+## ⚙️ Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Before you begin, ensure you have met the following requirements:
+- **Node.js** (v18.0.0 or higher recommended)
+
+## 💻 Local Setup & Installation
+
+1. **Clone the repository** (if applicable)
+   ```bash
+   git clone <your-repo-url>
+   cd maanitha-portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set up Environment Variables**
+   Create a `.env` file in the root directory based on the provided `.env.example` file and add your Supabase credentials to enable the Contact Form:
+   ```env
+   VITE_SUPABASE_URL=your_supabase_project_url
+   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+   ```
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+   The application will be available at `http://localhost:5173`.

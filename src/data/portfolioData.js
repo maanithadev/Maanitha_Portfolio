@@ -100,7 +100,7 @@ export const projects = [
     ],
     stack: ["React", "Node.js", "MongoDB"],
     live: "",
-    github: "#",
+    github: "https://github.com/maanithadev/WasteXchange",
   },
   {
     id: "02",
@@ -125,7 +125,7 @@ export const projects = [
       "WhatsApp Integration for Contact"
     ],
     stack: ["React", "Shadcn/ui", "Supabase"],
-    live: "#",
+    live: "https://www.matrixaiacademy.com/",
     github: "",
   },
   {
@@ -141,8 +141,8 @@ export const projects = [
       "Professional Material UI integration for polished interface"
     ],
     stack: ["React", "Tailwind CSS"],
-    live: "#",
-    github: "#",
+    live: "https://adcore-creative.netlify.app/",
+    github: "https://github.com/maanithadev/Adcore_Creative",
   },
   {
     id: "04",
@@ -157,7 +157,7 @@ export const projects = [
       "clean aesthetics",
     ],
     stack: ["React", "Tailwind CSS"],
-    live: "#",
+    live: "https://helanovasolution.online/",
     github: "#",
   },
   {
@@ -175,7 +175,7 @@ export const projects = [
     ],
     stack: ["HTML", "CSS", "JS", "Bootstrap"],
     live: "",
-    github: "#",
+    github: "https://github.com/maanithadev/HND_Web_Assignment_Ecommerce",
   },
   {
     id: "06",
@@ -194,6 +194,6 @@ export const projects = [
     ],
     stack: ["React", "Tailwind CSS", "GSAP", "Supabase"],
     live: "https://maanitha-perera-portfolio.netlify.app",
-    github: "#",
+    github: "https://github.com/maanithadev/Maanitha_Portfolio",
   },
 ];
