@@ -158,7 +158,7 @@ export const projects = [
     ],
     stack: ["React", "Tailwind CSS"],
     live: "https://helanovasolution.online/",
-    github: "#",
+    github: "",
   },
   {
     id: "05",
