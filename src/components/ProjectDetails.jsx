@@ -5,6 +5,11 @@ export default function ProjectDetails({ project }) {
         {project.year} · {project.role}
       </span>
       <h3 className="font-display text-3xl font-semibold mt-3">{project.title}</h3>
+      {project?.image &&
+        <div className="w-full mt-4 rounded-lg overflow-hidden">
+          <img src={project.image} alt={project.title} className="w-full object-cover object-center hover:scale-102 transition duration-300 ease-in-out" />
+        </div>
+      }
       <p className="text-ink-muted mt-4 leading-relaxed">{project.longDescription}</p>
 
       <div className="mt-6">

@@ -82,6 +82,7 @@ export const projects = [
   {
     id: "01",
     title: "WasteXchange",
+    image: "WasteXchange.png",
     description: "Intelligent Waste Classification and Recommendation System for Industrial Waste Exchange.",
     longDescription: "Industrial waste management remains inefficient due to manual waste classification, limited buyer discovery, and inadequate sustainability monitoring. This project proposes an AI-powered industrial waste exchange platform featuring automated waste classification, buyer recommendation, carbon footprint analytics, real-time messaging, and secure transactions to enhance industrial symbiosis and support circular economy initiatives.",
     year: "2026",
@@ -105,6 +106,7 @@ export const projects = [
   {
     id: "02",
     title: "Matrix Ai Academy",
+    image: "Matrix_Ai_Academy.png",
     description: "AI Video Production Training Platform with Enrollment Management and Admin Dashboard",
     longDescription: "Matrix AI Academy is a comprehensive online learning platform designed to deliver Sri Lanka's first live AI filmmaking course. The platform combines an engaging public landing page, multi-tier pricing options, and a sophisticated admin dashboard. It features secure Supabase authentication, real-time enrollment processing, detailed student analytics with registration tracking, and customizable website settings. The platform supports multi-language functionality (English & Sinhala), dark mode theming, and provides administrators with powerful tools for managing student registrations, generating analytics reports, and exporting enrollment data in multiple formats.",
     year: "2025",
@@ -131,6 +133,7 @@ export const projects = [
   {
     id: "03",
     title: "Adcore Creative",
+    image: "Adcore_Creative.png",
     description: "Modern Creative Portfolio with Animations to Showcase Platform built for a company called Adcore Creative.",
     longDescription: "This project proposes a creative portfolio platform featuring smooth GSAP animations, Material Design components, responsive Tailwind styling, and optimized Vite build tooling.",
     year: "2025",
@@ -147,6 +150,7 @@ export const projects = [
   {
     id: "04",
     title: "HelaNova Solutions",
+    image: "HelaNova_Solutions.png",
     description: "A modern, responsive portfolio website showcasing professional services and solutions with a sleek, user-friendly interface.",
     longDescription: "HelaNova solution portfolio website designed to showcase services and expertise in a modern, interactive format. The project leverages React with Vite for fast development and build performance, styled with Tailwind CSS for responsive design. It features smooth navigation, icon integration through React Icons, and client-side routing capabilities to deliver a seamless user experience across different service sections and webpages.",
     year: "2026",
@@ -163,6 +167,7 @@ export const projects = [
   {
     id: "05",
     title: "HND Web Assignment Ecommerce",
+    image: "HND_Web_Assignment_Ecommerce.png",
     description: "A frontend e-commerce platform built with HTML, CSS, and JavaScript featuring product browsing and shopping cart functionality.",
     longDescription: "This e-commerce project is a web-based shopping platform developed as a HND (Higher National Diploma) assignment. It provides a complete user interface for online shopping, including product listing pages, shopping cart management, and checkout processes. Built primarily with vanilla HTML, CSS, and JavaScript for the frontend, the platform emphasizes responsive design and user-friendly navigation for seamless shopping experiences.",
     year: "2024",
@@ -180,6 +185,7 @@ export const projects = [
   {
     id: "06",
     title: "Maanitha Portfolio",
+    image: "Maanitha_Portfolio.png",
     description: "A modern, responsive personal portfolio website built with React, featuring smooth animations and elegant styling with Tailwind CSS and GSAP.",
     longDescription: "Maanitha's Portfolio is designed to highlight professional work and skills. Built with React for dynamic interactivity and Vite for optimal performance, the project leverages Tailwind CSS for responsive, utility-first styling and GSAP for smooth, engaging animations. The portfolio demonstrates modern web development practices",
     year: "2026",
