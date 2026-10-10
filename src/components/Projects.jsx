@@ -51,9 +51,9 @@ export default function Projects() {
         </h2>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {projects.map((project) => (
+          {projects.map((project, idx) => (
             <div
-              key={project.id}
+              key={idx}
               onMouseMove={handleMove}
               onMouseLeave={handleLeave}
               onClick={() => setSelected(project)}
@@ -62,14 +62,14 @@ export default function Projects() {
               style={{ transformStyle: "preserve-3d" }}
             >
               <div className="flex items-start justify-between">
-                <span className="font-display text-4xl text-white/10">{project.id}</span>
+                <span className="font-display text-4xl text-white/10">{"0" + (idx + 1)}</span>
                 <div className="flex gap-3" onClick={(e) => e.stopPropagation()}>
-                  <a href={project.github} data-cursor-hover target="_blank" rel="noreferrer" className="text-ink-muted hover:text-cyan transition-colors">
+                  {/* <a href={project.github} data-cursor-hover target="_blank" rel="noreferrer" className="text-ink-muted hover:text-cyan transition-colors">
                     <FiGithub size={18} />
-                  </a>
-                  <a href={project.live} data-cursor-hover target="_blank" rel="noreferrer" className="text-ink-muted hover:text-cyan transition-colors">
+                  </a>*/}
+                  <button data-cursor-hover target="_blank" rel="noreferrer" className="text-ink-muted hover:text-cyan transition-colors" onClick={() => setSelected(project)}>
                     <FiArrowUpRight size={18} />
-                  </a>
+                  </button>
                 </div>
               </div>
 

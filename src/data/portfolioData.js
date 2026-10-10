@@ -45,13 +45,13 @@ export const education = [
 ];
 
 export const skillGroups = [
-  { id: "programming languages", label: "Programming Languages", skills: ["JavaScript", "C#"], },
-  { id: "frontend", label: "Frontend", skills: ["React JS", "Tailwind CSS", "Bootstrap", "GSAP"], },
-  { id: "backend", label: "Backend", skills: ["Node.js", "Express.js", "REST APIs"] },
+  { id: "programming languages", label: "Programming Languages", skills: ["JavaScript", "TypeScript", "C#"], },
+  { id: "frontend", label: "Frontend", skills: ["React.js", "React Native", "Tailwind CSS", "NativeWind", "Shadcn/ui", "Bootstrap", "GSAP"], },
+  { id: "backendandapis", label: "Backend & APIs:", skills: ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "Clerk"] },
   { id: "database", label: "Databases", skills: ["MySQL", "MongoDB"] },
   { id: "baas", label: "Backend-as-a-Service", skills: ["Supabase"] },
   { id: "devops", label: "DevOps & Deployment", skills: ["Git", "GitHub", "Netlify", "Vercel"] },
-  { id: "tools", label: "Tools", skills: ["ClickUp", "ProjectLibre", "Figma", "Notion", "WebStorm", "Antigravity", "Postman"] },
+  { id: "developmentandprojecttools", label: "Development & Project Tools", skills: ["Figma", "WebStorm", "Postman", "Google Antigravity", "ClickUp", "ProjectLibre", "Notion"] },
 ];
 
 export const certificates = [
@@ -80,7 +80,6 @@ export const certificates = [
 
 export const projects = [
   {
-    id: "01",
     title: "WasteXchange",
     image: "WasteXchange.png",
     description: "Intelligent Waste Classification and Recommendation System for Industrial Waste Exchange.",
@@ -104,7 +103,29 @@ export const projects = [
     github: "https://github.com/maanithadev/WasteXchange",
   },
   {
-    id: "02",
+    title: "MLA Foods",
+    image: "MLA_Foods.png",
+    description: "MLA Foods is a bilingual food ordering platform for a real food services business, with a responsive customer website and a React Native admin app, both powered by Supabase.",
+    longDescription: "MLA Foods is a food services business, made up of two connected applications. The customer-facing web application, built with React.js and TypeScript, lets guests browse a food catalogue, manage their cart, and see dynamic pricing with verification, all through a responsive, mobile-friendly design with a bilingual interface. For the business owners, developed a cross-platform admin mobile app with React Native, featuring secure Clerk authentication, product and category management, and order processing, with a polished interface styled using NativeWind. Both applications share Supabase as their backend, connected through APIs so that content updates in the admin app appear dynamically on the website. The result is a complete system that lets the business manage its menu and orders from a phone while customers browse and order online.",
+    year: "2026",
+    role: "Full-stack Developer",
+    features: [
+      "offers a food catalogue",
+      "cart management",
+      "dynamic pricing and verification",
+      "order summery Export as PDF",
+      "responsive design",
+      "bilingual interface",
+      "Clerk authentication",
+      "product and category management",
+      "order processing",
+      "cross-platform compatibility(andriod & ios)"
+    ],
+    stack: ["React", "TypeScript", "React Native", "Supabase"],
+    live: "https://mlafoods.shop/",
+    github: "",
+  },
+  {
     title: "Matrix Ai Academy",
     image: "Matrix_Ai_Academy.png",
     description: "AI Video Production Training Platform with Enrollment Management and Admin Dashboard",
@@ -118,8 +139,7 @@ export const projects = [
       "Use of Shadcn/ui components to build the admin dashboard pages",
       "Secure User Authentication (Supabase)",
       "Comprehensive Admin Dashboard with Analytics",
-      "Student Database Management with Advanced Filtering",
-      "Multi-format Data Export (CSV, Excel, PDF)",
+      "Data Export as PDF",
       "Dark Mode Theme with Persistence",
       "Customizable Website Settings",
       "Account & Profile Management",
@@ -131,7 +151,6 @@ export const projects = [
     github: "",
   },
   {
-    id: "03",
     title: "Adcore Creative",
     image: "Adcore_Creative.png",
     description: "Modern Creative Portfolio with Animations to Showcase Platform built for a company called Adcore Creative.",
@@ -148,7 +167,6 @@ export const projects = [
     github: "https://github.com/maanithadev/Adcore_Creative",
   },
   {
-    id: "04",
     title: "HelaNova Solutions",
     image: "HelaNova_Solutions.png",
     description: "A modern, responsive portfolio website showcasing professional services and solutions with a sleek, user-friendly interface.",
@@ -165,7 +183,6 @@ export const projects = [
     github: "",
   },
   {
-    id: "05",
     title: "HND Web Assignment Ecommerce",
     image: "HND_Web_Assignment_Ecommerce.png",
     description: "A frontend e-commerce platform built with HTML, CSS, and JavaScript featuring product browsing and shopping cart functionality.",
@@ -183,7 +200,6 @@ export const projects = [
     github: "https://github.com/maanithadev/HND_Web_Assignment_Ecommerce",
   },
   {
-    id: "06",
     title: "Maanitha Portfolio",
     image: "Maanitha_Portfolio.png",
     description: "A modern, responsive personal portfolio website built with React, featuring smooth animations and elegant styling with Tailwind CSS and GSAP.",

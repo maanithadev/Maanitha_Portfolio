@@ -16,7 +16,7 @@ export default function ProjectDetails({ project }) {
         <p className="text-sm text-ink-muted uppercase tracking-widest mb-3">Highlights</p>
         <ul className="space-y-2">
           {project.features.map((f) => (
-            <li key={f} className="flex gap-3 text-ink">
+            <li key={f} className="flex gap-3 text-ink capitalize">
               <span className="text-cyan">▹</span> {f}
             </li>
           ))}
