@@ -50,12 +50,10 @@ export default function About() {
 
         <div>
           <p className="about-reveal text-ink-muted text-lg leading-relaxed font-body">
-            {personalInfo.bio}
+            {personalInfo.bio_part_1}
           </p>
           <p className="about-reveal text-ink-muted text-lg leading-relaxed font-body mt-6">
-            I thrive in team-based environments, care about the details others skip, and I'm
-            always looking for the next technology worth learning. Right now, that means
-            balancing my degree with real, shippable work.
+            {personalInfo.bio_part_2}
           </p>
 
           <div className="about-stats grid grid-cols-2 gap-6 mt-12">

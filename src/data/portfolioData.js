@@ -8,7 +8,8 @@ export const personalInfo = {
   tagline:
     "I build clean, reliable software across the stack - from database design to deployment.",
   status: "Open to developer roles & internships",
-  bio: "Passionate and committed Software Engineering undergraduate with hands-on experience across the full stack - from front-end frameworks to backend services and databases. Currently pursuing a BEng(Hons) in Software Engineering degree while contributing to real-world projects.",
+  bio_part_1: "Passionate and committed Software Engineering undergraduate and Mobile App Developer with hands-on experience across the full stack - from frontend frameworks to backend services and databases. Currently pursuing a BEng (Hons) in Software Engineering while contributing to real-world web and mobile application projects.",
+  bio_part_2: "I thrive in team-based environments, care about the details others skip, and I'm always looking for the next technology worth learning. Right now, that means balancing my degree with real, shippable work.",
   resumeUrl: "Maanitha Perera.pdf",
   socials: {
     github: "https://github.com/maanithadev",
@@ -108,7 +109,7 @@ export const projects = [
     description: "MLA Foods is a bilingual food ordering platform for a real food services business, with a responsive customer website and a React Native admin app, both powered by Supabase.",
     longDescription: "MLA Foods is a food services business, made up of two connected applications. The customer-facing web application, built with React.js and TypeScript, lets guests browse a food catalogue, manage their cart, and see dynamic pricing with verification, all through a responsive, mobile-friendly design with a bilingual interface. For the business owners, developed a cross-platform admin mobile app with React Native, featuring secure Clerk authentication, product and category management, and order processing, with a polished interface styled using NativeWind. Both applications share Supabase as their backend, connected through APIs so that content updates in the admin app appear dynamically on the website. The result is a complete system that lets the business manage its menu and orders from a phone while customers browse and order online.",
     year: "2026",
-    role: "Full-stack Developer",
+    role: "Full-stack Developer | Mobile App Developer",
     features: [
       "offers a food catalogue",
       "cart management",
